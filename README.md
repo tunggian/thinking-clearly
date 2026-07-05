@@ -23,7 +23,7 @@
 
 ## ✨ 功能
 
-当你在 **Claude Code** 中描述一个决策困境、行为困惑、或判断失误时，调用 `/thinking-clearly`，AI 将：
+当你在 Claude Code 或其他兼容 AI Agent 中描述一个决策困境、行为困惑、或判断失误时，调用 `/thinking-clearly`，AI 将：
 
 1. 理解你描述的情景
 2. 从 **99 个偏误 × 400+ 场景** 中找到最匹配的 **3 个认知偏误**
@@ -47,8 +47,8 @@
 
 ### 前提
 
-- 安装 [Claude Code](https://claude.ai/code)
-- 确保 `.agents/skills` 目录已配置
+- 安装 Claude Code、[Amp](https://github.com/joshwa/amp) 或其他兼容的 AI Agent 工具
+- 确保你的 skills 目录已配置（如 `.agents/skills`、`~/.claude/skills` 或对应工具的 skills 文件夹）
 
 ### 方法一：直接安装
 
@@ -311,4 +311,4 @@ MIT License
 ## 🙏 致谢
 
 - **Rolf Dobelli** —《The Art of Thinking Clearly》作者，翻译为中文《清醒思考的艺术》
-- **Claude Code Skills** — 让 AI 可以识别和规避认知偏误的工具
+- **[book-to-skill](https://github.com/apple-ouyang/book-to-skill)** — 将书籍转化为 AI Agent 可执行 Skill 的开源项目
