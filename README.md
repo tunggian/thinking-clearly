@@ -47,7 +47,7 @@
 
 ### 前提
 
-- 安装 Claude Code、[Amp](https://github.com/joshwa/amp) 或其他兼容的 AI Agent 工具
+- 安装 Claude Code 或其他兼容的 AI Agent 工具
 - 确保你的 skills 目录已配置（如 `.agents/skills`、`~/.claude/skills` 或对应工具的 skills 文件夹）
 
 ### 方法一：直接安装
@@ -310,5 +310,7 @@ MIT License
 
 ## 🙏 致谢
 
+- **Charlie Munger** — 多元思维模型的倡导者
+- **Gabriel Weinberg & Lauren McCann** —《Super Thinking》的作者，系统地整理了 97 个思维模型
 - **Rolf Dobelli** —《The Art of Thinking Clearly》作者，翻译为中文《清醒思考的艺术》
 - **[book-to-skill](https://github.com/apple-ouyang/book-to-skill)** — 将书籍转化为 AI Agent 可执行 Skill 的开源项目
